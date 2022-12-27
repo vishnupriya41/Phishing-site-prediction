@@ -3,7 +3,7 @@ import streamlit as st
 import joblib
 
 model_nb = joblib.load('Project')
-vect = joblib.load('vector.pkl')
+vect = joblib.load('vect.pkl')
 
 def main():
   st.title('Phishing URL Prediction') #creates a title in web app
