@@ -14,8 +14,8 @@ def main():
     prediction=model_nb.predict(cv)
     result=prediction[0]
     if result=='1':
-      st.success("FALSE")
+      st.success("TRUE")
     else:
-      st.error("TRUE")
+      st.error("FALSE")
    
 main()  
